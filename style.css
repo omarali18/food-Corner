@@ -53,12 +53,46 @@ body{
 }
 .card{
     display: flex;
-    margin: 0 5%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     margin-bottom: 100px;
 }
 .card .card-design{
     padding: 20px;
-    margin: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 25%;
     border-radius: 20px;
-    box-shadow: 10px 20px 40px gray;
+    box-shadow: 8px 18px 50px gray;
+}
+.card-design img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+.social-media{
+    display: flex;
+    margin: 0 10%;
+    border-radius: 15px;
+    box-shadow: 7px 10px 40px gray;
+}
+.social-media .media{
+    width: 25%;
+    margin-left: 12%;
+    margin-right: 10%;
+    text-align: center;
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h4{
+    font-size: 20pt;
+    color: gray;
+    padding-top: 20px;
+}
+footer p{
+    color: white;
+    padding-bottom: 30px;
 }
