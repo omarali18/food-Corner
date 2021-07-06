@@ -11,10 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito&family=Rubik&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/food/tea.jpg" type="image/x-icon">
 </head>
 
 <body>
-    <section class="flexible-container">
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#recipie">Recipie</a></li>
+            <li><a href="#footer">Footer</a></li>
+            <li><a href="#about">About</a></li>
+
+        </ul>
+    </nav>
+    <section class="flexible-container" id="home">
         <div class="half-width">
             <h1><span class="orenge-color">Global</span> expansion of markets</h1>
             <p>Pizza sales gross about $37 billion annually in the US. While the market in the West may be approaching
@@ -32,7 +42,7 @@
         <div class="half-width">
             <img src="images/female/sec-2-f.png" alt="">
         </div>
-        <div class="half-width">
+        <div class="half-width" id="about">
             <h1>About Me</h1>
             <p>Pizza can be traced back to its origin in the Persian Empire around 500 BC when flat bread was topped
                 with cheese and dates. Tomato was added by the Romans (Qarooni et al., 1992). Pizza coated with spices,
@@ -45,7 +55,7 @@
     </section>
     <section class="card-section">
         <div class="Some-information-on-card">
-            <h2>My Recipies</h2>
+            <h2 id="recipie">My Recipies</h2>
             <p>Since the moment when Raffaele Esposito made his historic pizza Margherita in 1984, the basic structure
                 of pizza became fixed. All the future variation of pizzas has been made with four distinct ingredients
                 -the crust, the sauce, cheese and topping.</p>
@@ -91,7 +101,7 @@
             <p>Dribble Shot Link</p>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
         <h4><span class="gradient-text orenge-color">FOOD</span> CORNER</h4>
         <P>Eat healthy to live healthy. live healthy to live happily.</P>
     </footer>
