@@ -2,4 +2,44 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .flexible-container{
+        display: flex;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .orenge-color{
+        color: #FC9149;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .half-width p{
+        margin-bottom: 50px;
+    }
+    .half-width a{
+        text-decoration: none;
+        padding: 20px 30px;
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 2px;
+        background-image: linear-gradient(#FD482D, #FC984C);
+    }
+    .half-width{
+        width: 50%;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .banner-add{
+        background-image: url(images/shapes/bg-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
