@@ -16,6 +16,9 @@ body{
     h1{
         font-size: 50px;
     }
+    h2{
+        font-size: 30px;
+    }
     .half-width p{
         margin-bottom: 50px;
     }
@@ -43,3 +46,19 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+.Some-information-on-card{
+    text-align: center;
+    padding: 0 300px;
+    opacity: .7;
+}
+.card{
+    display: flex;
+    margin: 0 5%;
+    margin-bottom: 100px;
+}
+.card .card-design{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 40px gray;
+}
