@@ -96,3 +96,11 @@ footer p{
     color: white;
     padding-bottom: 30px;
 }
+.gradient-text{
+    background-color: red;
+    background-image: linear-gradient(#FD482D, #FC984C);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
