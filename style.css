@@ -131,6 +131,7 @@ footer h4{
 footer p{
     color: white;
     padding-bottom: 30px;
+    color: rgb(160, 160, 160);
 }
 .gradient-text{
     background-color: red;
